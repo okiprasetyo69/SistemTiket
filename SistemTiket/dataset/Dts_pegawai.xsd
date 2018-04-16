@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dts_pegawai" targetNamespace="http://tempuri.org/Dts_pegawai.xsd" xmlns:mstns="http://tempuri.org/Dts_pegawai.xsd" xmlns="http://tempuri.org/Dts_pegawai.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dts_pegawai" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dts_pegawai" msprop:Generator_UserDSName="Dts_pegawai">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_pegawai" msprop:Generator_TableClassName="dt_pegawaiDataTable" msprop:Generator_TableVarName="tabledt_pegawai" msprop:Generator_TablePropName="dt_pegawai" msprop:Generator_RowDeletingName="dt_pegawaiRowDeleting" msprop:Generator_RowChangingName="dt_pegawaiRowChanging" msprop:Generator_RowEvHandlerName="dt_pegawaiRowChangeEventHandler" msprop:Generator_RowDeletedName="dt_pegawaiRowDeleted" msprop:Generator_UserTableName="dt_pegawai" msprop:Generator_RowChangedName="dt_pegawaiRowChanged" msprop:Generator_RowEvArgName="dt_pegawaiRowChangeEvent" msprop:Generator_RowClassName="dt_pegawaiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no" msprop:Generator_ColumnVarNameInTable="columnno" msprop:Generator_ColumnPropNameInRow="no" msprop:Generator_ColumnPropNameInTable="noColumn" msprop:Generator_UserColumnName="no" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_pegawai" msprop:Generator_ColumnVarNameInTable="columnnama_pegawai" msprop:Generator_ColumnPropNameInRow="nama_pegawai" msprop:Generator_ColumnPropNameInTable="nama_pegawaiColumn" msprop:Generator_UserColumnName="nama_pegawai" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="passwords" msprop:Generator_ColumnVarNameInTable="columnpasswords" msprop:Generator_ColumnPropNameInRow="passwords" msprop:Generator_ColumnPropNameInTable="passwordsColumn" msprop:Generator_UserColumnName="passwords" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

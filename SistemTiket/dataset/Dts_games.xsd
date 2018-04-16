@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dts_games" targetNamespace="http://tempuri.org/Dts_games.xsd" xmlns:mstns="http://tempuri.org/Dts_games.xsd" xmlns="http://tempuri.org/Dts_games.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dts_games" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dts_games" msprop:Generator_UserDSName="Dts_games">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_games" msprop:Generator_TableClassName="dt_gamesDataTable" msprop:Generator_TableVarName="tabledt_games" msprop:Generator_TablePropName="dt_games" msprop:Generator_RowDeletingName="dt_gamesRowDeleting" msprop:Generator_RowChangingName="dt_gamesRowChanging" msprop:Generator_RowEvHandlerName="dt_gamesRowChangeEventHandler" msprop:Generator_RowDeletedName="dt_gamesRowDeleted" msprop:Generator_UserTableName="dt_games" msprop:Generator_RowChangedName="dt_gamesRowChanged" msprop:Generator_RowEvArgName="dt_gamesRowChangeEvent" msprop:Generator_RowClassName="dt_gamesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="no" msprop:Generator_ColumnVarNameInTable="columnno" msprop:Generator_ColumnPropNameInRow="no" msprop:Generator_ColumnPropNameInTable="noColumn" msprop:Generator_UserColumnName="no" type="xs:string" minOccurs="0" />
+              <xs:element name="id_games" msprop:Generator_ColumnVarNameInTable="columnid_games" msprop:Generator_ColumnPropNameInRow="id_games" msprop:Generator_ColumnPropNameInTable="id_gamesColumn" msprop:Generator_UserColumnName="id_games" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_games" msprop:Generator_ColumnVarNameInTable="columnnama_games" msprop:Generator_ColumnPropNameInRow="nama_games" msprop:Generator_ColumnPropNameInTable="nama_gamesColumn" msprop:Generator_UserColumnName="nama_games" type="xs:string" minOccurs="0" />
+              <xs:element name="harga" msprop:Generator_ColumnVarNameInTable="columnharga" msprop:Generator_ColumnPropNameInRow="harga" msprop:Generator_ColumnPropNameInTable="hargaColumn" msprop:Generator_UserColumnName="harga" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
